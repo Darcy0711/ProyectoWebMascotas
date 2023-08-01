@@ -1,0 +1,197 @@
+/*GENERAL*/
+*{
+    margin: 0;
+    padding:0;
+}
+
+/*SECCION TITULO*/
+.contenedor_titulo{
+    padding: 1rem;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.titulo{
+    font-family: fuente1;
+    color: rgb(114, 19, 19);
+}
+
+.grilla{
+background-color:aqua!important;
+}
+
+.seccion_perros{
+    padding: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo_perros{
+    font-family: Fuente3;
+    color: blue;
+}
+
+.titulo_gatos{
+    font-family: Fuente2;
+    color:fuchsia;
+}
+
+/*Sombreado Tarjeta*/
+.tarjeta{
+    -webkit-box-shadow: -6px 0px 10px 3px #FF1B3A; 
+    box-shadow: -6px 0px 10px 3px #FF1B3A;
+}
+.card-body{
+    -webkit-box-shadow: -6px 0px 10px 3px #FF1B3A; 
+    box-shadow: -6px 0px 10px 3px #FF1B3A;
+}
+.seccion_tarjetas{
+    text-align: center;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seccion_gatos{
+    padding: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Diseño Tercera Pagina */
+/*SECCION ACCESORIOS */
+.seccion_accesorios{
+    padding: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seccion_jugueteria{
+    padding: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo_jugueteria{
+    font-family: Fuente5;
+    color: #330066 ;
+}
+
+/*SECCION COMEDEROS*/
+.seccion_comederos{
+    padding: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.titulo_comederos{
+    font-family: Fuente5;
+    color:#339933 ;
+
+}
+
+/*SECCION BEBEDEROS*/
+.seccion_bebederos{
+    padding: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo_bebederos{
+    font-family: Fuente5;
+    color: #660000;
+}
+
+.seccion_camas{
+    padding: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo_camas{
+    font-family: Fuente5;
+    color: #0000FF ;
+}
+/* Diseño Cuarta Pagina */
+/*SECCION VETERINARIA*/
+.seccion_veterinaria{
+    padding: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo_veterinaria{
+    font-family: Fuente3;
+    color: indianred;
+}
+
+/*SECCION PELUQUERIA*/
+.seccion_peluqueria{
+    padding: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo_peluqueria{
+    font-family: Fuente3;
+    color:deeppink
+}
+
+/*SECCION GUARDERIA*/
+.seccion_guarderia{
+    padding: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo_guarderia{
+    font-family: Fuente2;
+    color: #990066;
+}
+.seccion_formulario{
+    padding: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Fuente5;
+    color:#660033 ;
+    text-align: center;
+}
+
+/*DISEÑO RESPONSIVE*/
+@media only screen and (max-width: 600px){
+    .card-text{
+        background-color:#CCFFFF ;
+        font-family: Fuente4;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .titulo_perros{
+        color:#330033 ;
+        font-family: Fuente4;
+    }
+}
+
+
+@font-face {
+    font-family: fuente1;
+    src: url(../fuentes/AbrilFatface-Regular.ttf);
+}
+
+@font-face {
+    font-family: Fuente2;
+    src: url(../fuentes/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: Fuente3;
+    src: url(../fuentes/LobsterTwo-Italic.ttf);
+}
+@font-face {
+    font-family: Fuente4;
+    src: url(../fuentes/Staatliches-Regular.ttf);
+}
+
+@font-face {
+    font-family: Fuente5;
+    src: url(../fuentes/Satisfy-Regular.ttf);
+}

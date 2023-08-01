@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Proyecto</title>
+
+    <!--CS BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!--MIS ESTILOS-->
+    <link rel="stylesheet" href="estilos/estilos.css">
+    
+    <!--ICONO-->
+    <link rel="icon" type="images/png" href="imagenes/iconos.webp">
+</head>
+<body>
+    <!--TITULO PAGINA-->
+    <div class=" text-center display-1 contenedor_titulo"  style="background-image: url(imagenes/fondo.jpg)">
+        <h1 class="titulo">THIAGO PET</h1>
+    </div>
+
+    <!--SECCION GRILLAS-->
+    <div class="row text-center m-1">
+        <div class="col-md-2 p-2 border border-primary grilla">
+            <a href="#seccion_perros" class="text-dark button" style="text-decoration:none">Raza Perros</a>
+        </div>
+        <div class="col-md-2 p-2 border border-primary grilla">
+            <a href="#seccion_gatos" class="text-dark button" style="text-decoration:none">Raza Gatos</a>
+        </div>
+        <div class="col-md-2 p-2 border border-primary grilla">
+            <a href="segundapagina.html" class="text-dark button" style="text-decoration:none">Concentrado</a>
+        </div>
+        <div class="col-md-2 p-2 border border-primary grilla">
+            <a href="tercerapagina.html" class="text-dark button" style="text-decoration:none">Accesorios</a>
+        </div>
+        <div class="col-md-2 p-2 border border-primary grilla">
+            <a href="cuartapagina.html" class="text-dark button" style="text-decoration:none">Servicios</a>
+        </div>
+        <div class="col-md-2 p-2 border border-primary grilla">
+            <a href="contactame.html" class="text-dark button" style="text-decoration:none">Contactame</a>
+        </div>
+    </div>
+
+    <!--SECCION CARRUSEL-->
+        
+    <div class="d-flex justify-content-center carrusel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./imagenes/perro-gato.jpg" class="d-block w-100" alt="error">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/perro.jpeg" class="d-block w-100" alt="error">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/perros.jpg" class="d-block w-100" alt="error">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!--SECCION RAZA PERROS-->
+    <section id="seccion_perros" class="seccion_perros border border-success" style="background-image: url(imagenes/fondo1.jpeg);">
+        <div class="text-center">
+            <h1 class="display-1 titulo_perros">Raza Perros</h1>
+        </div>
+    <seccion class="seccion_tarjetas">
+        <div class="flexbox">
+                    <div class="card m-4 tarjeta" style="width: 22rem">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./imagenes/golden1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./imagenes/perrito.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Golden Retriever</h5>
+                            <p class="card-text">El golden es un perro amable y equilibrado que suele 
+                                                adaptarse bien a la vida en familia. Le encanta participar en todas 
+                                                las actividades.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="card m-4 tarjeta" style="width: 22rem;">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./imagenes/Samoyedo.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./imagenes/samoyedo1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Samoyedo</h5>
+                            <p class="card-text">Le encanta que se lo incluya 
+                                                 en todas las actividades familiares y puede resultar destructivo o 
+                                                 ruidoso si se le deja solo mucho rato o si se aburre,Le encanta cavar 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card m-4 tarjeta" style="width: 22rem;">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./imagenes/aleman.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./imagenes/pastor.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Pastor Aleman</h5>
+                            <p class="card-text">Es un compañero de familia cariñoso, leal y de buen carácter 
+                                                 que ama a los niños. Les encanta complacer y son fáciles de entrenar, 
+                                                 por lo que a menudo se les utiliza como perros policias.
+                            </p>
+                        </div>
+                    </div>
+                </div>  
+        </div>
+    </seccion>
+    </section>
+
+    <!--SECCION CONCENTRADO-->
+    <section id="seccion_concentrado" class="seccion_concentrado border border-success" style="background-image: url(imagenes/fondo1.jpeg);">
+        <div class="text-center">
+            <h1 class="display-1 titulo_concentrado">Concentrado Perros</h1>
+        </div>
+    <seccion class="seccion_tarjetas">
+        <div class="flexbox">
+                <div class="card m-4 tarjeta" style="width: 22rem;">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./imagenes/bengala.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./imagenes/gato.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Bengali</h5>
+                            <p class="card-text">Son muy juguetones 
+                                                 por naturaleza y rebosan energía. Los bengalíes son listos 
+                                                 y parece que miren todo lo que les rodea
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="card m-4 tarjeta" style="width: 22rem;">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./imagenes/british1jpg.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./imagenes/British.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">British Shorthair</h5>
+                            <p class="card-text">Se trata de un gato juguetón y alegre, que sabe mostrarse
+                                                 tranquilo y silencioso cuando la situación lo requiere. 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card m-4 tarjeta" style="width: 22rem;">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./imagenes/siames.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./imagenes/siames1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Siames</h5>
+                            <p class="card-text">El siamés es un gato afectuoso que necesita 
+                                                 que su propietario se entregue totalmente a él, al igual que él 
+                                                 se entrega totalmente a su propietario.
+                            </p>
+                        </div>
+                    </div>
+        </div>
+    </seccion>
+    </section>
+
+    <!--PIE DE PAGINA-->
+    <footer class="bg-dark text-danger text-center">Pagina Creada por Darcy Novoa</footer>
+
+    <!--SCRIPT BOOSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" 
+    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" 
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
